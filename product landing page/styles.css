@@ -1,0 +1,91 @@
+body {
+    font-style: sans-serif;
+    width: 100%;
+    height: 100vh;
+  }
+  #header {
+    font-size: 1.5rem;
+    position: sticky;
+    left: 0;
+    top: 0;
+  }
+  #header-img {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+  }
+  #nav-bar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: black;
+  }
+  #form {
+    justify-content: center;
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+  #form input {
+    display: block;
+    padding: 10px;
+    align-items: center;
+    margin: 0 auto 20px;
+  }
+  #submit {
+    background-color: yellow;
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: block;
+    align-items: center;
+    margin: auto;
+  }
+  #features {
+    padding: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  #video {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  #pricing {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 200px 300px;
+    grid-gap: 10px 20px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  
+  }
+  ul li {
+    list-style-type: none;
+  }
+  #pricing div {
+     border: 1px solid black;
+    width: 100%;
+    height: 45vh;
+  }
+  #pricing h1 {
+    background-color: lightgray;
+    margin-top: 0;
+    font-size: 3vh
+  }
+  #pricing p {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  @media (max-width: 600px) {
+    h1, p {
+      font-size: 1.5vh;
+    }
+  }

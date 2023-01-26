@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id="title">Survey Form </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="'1.0">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1 id="title">Survey Form for Eastleigh Residents</h1>
+    <p id="description">Please fill out the form with the required information.</p>
+    <form id="survey-form">
+        <fieldset>
+            <label for="name">Name
+                <input type="text" id="name" required placeholder="Enter full ames">
+            </label>
+            <label for="age">Age
+                <input id="age" type="number" max="100" min="18" placeholder="35"> 
+            </label>
+            <label for="email">Email Address
+                <input id="email" type="email" required placeholder="johndoe@gmail.com"> 
+            </label>
+        </fieldset>
+        <label>Housing</label>
+        <select>
+            <option value="">select appropriately</option>
+            <option value="1">Own</option>
+            <option value="2">Tenant</option>
+            <option value="3">Homeless</option>
+        </select>        
+        <label for="rental-type">If tenant please choose Rental Type</label>
+        <label id="rental-type">
+            <input type="radio" id="rental-type" name="rental"/> Estate
+        </label>
+        <label id="rental-type">
+            <input type="radio" id="rental-type" name="rental"/> Apartment
+        </label>
+        <label id="rental-type">
+            <input type="radio" id="rental-type" name="rental"/> Slums
+        </label>
+        <label>How much do you pay as rent in ksh</label>
+        <select>
+            <option value="">Select amount</option>
+            <option value="1">below 30000</option>
+            <option value="2">31000-50000</option>
+            <option value="3">51000-70000</option>
+            <option value="4">71000-91000</option>
+            <option value="5">over 90000</option>
+        </select>
+        <fieldset>
+            <label for="size" id="rental-size">Rental Size</label>
+            <label id="size">
+                <input type="radio" id="size" name="size"> Single Room
+            </label>
+            <label id="size">
+                <input type="radio" id="size" name="size"> 1 Bedroom
+            </label>
+            <label id="size">
+                <input type="radio" id="size" name="size"> 2 Bedroom
+            </label>
+            <label id="size">
+                <input type="radio" id="size" name="size"> 3 Bedroom
+            </label>
+            <label id="size">
+                <input type="radio" id="size" name="size"> 4 Bedroom
+            </label>
+            <label id="size">
+                <input type="radio" id="size" name="size"> 5 Bedroom
+            </label>
+        </fieldset>
+        <label for="comments">How do you like your Residential area? Please comment below</label>
+        <textarea id="comments" name="comments" rows="5" cols="50"></textarea>
+        <input type="submit" value="Sumit">
+
+        
+    </form>
+</body>
+</html>

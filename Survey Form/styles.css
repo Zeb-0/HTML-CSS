@@ -1,0 +1,86 @@
+* {
+    background-color: rgb(22, 22, 27);
+}
+body {
+    background-color: rgb(117, 105, 93);
+    font-family: sans-serif;
+    width: 80%;
+    height: 80%;
+    border: 2px solid rgb(106, 233, 220);
+    margin: 20px auto;
+    color: rgb(199, 224, 241);
+    border-radius: 5px;
+}
+#title {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    background-color: inherit;
+}
+#description {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    background-color: inherit;
+}
+#survey-form {
+    margin: 0 auto;
+    border: 2px solid rgb(106, 233, 220);
+    border-radius: 5px;
+    max-width: 800px;
+    min-width: 500px;
+    width: 10vh;
+    background-color: rgb(39, 39, 45);
+    
+}
+fieldset {
+    padding: 10px;
+    border: none;
+    margin: 0 auto;
+    background-color: inherit;
+}
+label {
+    display: block;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: inherit;
+}
+#name, #age, #email {
+    display: block;
+    margin-top: 0.2rem;
+    background-color: rgb(217, 233, 231);
+    color: rgb(10, 6, 0);
+}
+select {
+    margin-left: 20px;
+    background-color: rgb(51, 53, 53);
+    color: white;
+}
+#comments {
+    margin-left: 20px;
+    display: block;
+    background-color: white;
+    color: rgb(10, 12, 16);
+}
+#rental-size {
+    font-weight: bold;
+}
+#size {
+    padding: 5px;
+    width: unset;
+    height: 5vh;
+    vertical-align: middle;
+    margin-left: 0.5rem 0.5rem 0 0;
+}
+input[type='submit'] {
+    margin: 20px;
+    background-color: gray;
+    width: 80%;
+    height: 2em;
+    display: block;
+    border: 2px solid rgb(11, 195, 189)
+}
