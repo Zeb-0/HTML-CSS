@@ -43,4 +43,6 @@ html {
 #projo {
     display: grid;
     position: absolue;
+    width: 100%;
+    height: 80vh;
 }
