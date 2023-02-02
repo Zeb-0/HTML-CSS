@@ -42,4 +42,5 @@ html {
 }
 #projo {
     display: grid;
+    position: absolue;
 }
