@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Takow Real Estate</title>
+  <style>
+    /* CSS styles go here */
+/* Reset default styles for better consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+  color: rgb(130, 12, 12);
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
+  color: rgb(116, 60, 60);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(116, 60, 60);
+}
+
+a:hover {
+  color: rgb(230, 109, 109);
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+/* Navbar */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(193, 186, 173);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  z-index: 100;
+}
+
+/* About section */
+#about {
+  background-color: rgb(66, 60, 60);
+  color: white;
+}
+
+#about h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  margin-bottom: 10px;
+}
+
+#logo {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+}
+
+/* Works section */
+#works {
+  background-color: rgb(48, 45, 45);
+  color: bisque;
+}
+
+#works h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#works ul {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+#works ul li {
+  margin-bottom: 5px;
+}
+
+/* Projects section */
+#projects {
+  background-color: rgb(37, 18, 18);
+  color: white;
+}
+
+#projects h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.projo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.projo img {
+  width: 100%;
+  height: auto;
+}
+
+.video {
+  margin-bottom: 20px;
+}
+
+/* Location section */
+#location {
+  background-color: rgb(27, 7, 3);
+  color: bisque;
+}
+
+#location h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#location ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+#location ul li {
+  margin-bottom: 5px;
+}
+
+/* Partners section */
+#partners {
+  background-color: rgb(29, 1, 1);
+  color: white;
+}
+
+#partners h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#partners ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+#partners ul li {
+  margin-bottom: 5px;
+}
+
+/* Contacts section */
+#contacts {
+  background-color: rgb(37, 2, 2);
+  color: white;
+}
+
+#contacts h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#contacts ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+#contacts ul li {
+  margin-bottom: 5px;
+}
+
+/* Socials section */
+#socials {
+  background-color: rgb(51, 20, 2);
+  color: azure;
+}
+
+#socials h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.social-link {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+  color: rgb(116, 60, 60);
+}
+
+  </style>
+</head>
+<body>
+  <nav id="navbar">
+    <a href="#about">About</a>
+    <a href="#works">Our Work</a>
+    <a href="#projects">Projects</a>
+    <a href="#location">Location</a>
+    <a href="#partners">Our Partners</a>
+    <a href="#contacts">Contacts</a>
+    <a href="#socials">Socials</a>        
+  </nav>
+
+  <section id="about">
+    <p id="description">Realize your property ownership dream with</p>
+    <h1>Takow Real Estate Ltd.</h1>
+    <p id="description">At Takow Real Estate, we guarantee that you will get the home/property you have been dreaming of manifesting.</p>
+    <p id="description">Trust us with your dream.</p>
+    <img src="path/to/your/logo.png" alt="Takow Real Estate Ltd." id="logo">
+  </section>
+
+  <section id="works">
+    <h1>What We Do</h1>
+    <p id="land">Land Acquisition</p>
+    <p>This involves, but is not limited to:</p>
+    <ul>
+      <li>Buying obsolete property for development projects</li>
+      <li>Buying new land/plots for new projects</li>
+    </ul>
+    <p id="renovs">Renovations</p>
+    <p>We do renovations for damaged properties.</p>
+    <p>Leasing/Renting</p>
+    <p>Our finished projects are always available for lease or rent. See our <a href="" target="_blank">Brochure</a> for available offers.</p>
+    <p>Selling Property</p>
+    <p>If you are looking to own your own property, then you've come to the right place. Just visit our <a href="" target="_blank">Brochure</a> to learn more.</p>
+  </section>
+
+  <section id="projects">
+    <h1>Projects</h1>
+    <p>Below are some of our projects:</p>
+    <div class="projo">
+      <!-- Place your project images here -->
+    </div>
+    <div class="projo1">
+      <!-- Place your project images here -->
+    </div>
+    <div class="projo2">
+      <!-- Place your project images here -->
+    </div>
+    <div class="projo3">
+      <!-- Place your project images here -->
+    </div>
+    <div class="video">
+      <!-- Place your video embed code here -->
+    </div>
+  </section>
+
+  <section id="location">
+    <h1>Location</h1>
+    <p>We are currently active in the following areas:</p>
+    <ul>
+      <li>Nairobi County
+        <ul>
+          <li>Eastleigh</li>
+          <li>Pangani</li>
+          <li>Parklands</li>
+          <li>South C</li>
+          <li>South B</li>
+        </ul>
+      </li>
+      <li>Machakos County
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </li>
+      <li>Kajiado County
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section id="partners">
+    <h1>Our Partners</h1>
+    <p>We are currently working together with:</p>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </section>
+
+  <section id="contacts">
+    <h1>Contacts</h1>
+    <p>Contact our main office via:</p>
+    <ul>
+      <li></li>
+      <li></li>
+    </ul>
+  </section>
+
+  <section id="socials">
+    <h1>Socials</h1>
+    <p>You can always reach us quickly through our capable moderators on social media:</p>
+    <a href="" target="_blank" class="social-link">Facebook</a>
+    <a href="" target="_blank" class="social-link">Twitter</a>
+    <a href="" target="_blank" class="social-link">Instagram</a>
+  </section>
+
+  <footer>
+    <a href="" target="_blank">FAQ</a>
+    <p>Takow Real Estate Ltd.</p>
+  </footer>
+</body>
+</html>
+
