@@ -45,12 +45,16 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgb(193, 186, 173);
+  background-color: #ffffff;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding: 10px;
-  z-index: 100;
+  z-index: 9999;
+  transition: top 0.5s ease-in-out;
+}
+.navbar-hidden {
+	top: -100px;
 }
 
 /* About section */
