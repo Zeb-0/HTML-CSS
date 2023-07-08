@@ -1,0 +1,200 @@
+/* Reset default styles for better consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+  color: rgb(130, 12, 12);
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
+  color: rgb(116, 60, 60);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(116, 60, 60);
+}
+
+a:hover {
+  color: rgb(230, 109, 109);
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+/* Navbar */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(193, 186, 173);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  z-index: 100;
+}
+
+/* About section */
+#about {
+  background-color: rgb(66, 60, 60);
+  color: white;
+}
+
+#about h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  margin-bottom: 10px;
+}
+
+#logo {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+}
+
+/* Works section */
+#works {
+  background-color: rgb(48, 45, 45);
+  color: bisque;
+}
+
+#works h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#works ul {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+#works ul li {
+  margin-bottom: 5px;
+}
+
+/* Projects section */
+#projects {
+  background-color: rgb(37, 18, 18);
+  color: white;
+}
+
+#projects h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.projo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.projo img {
+  width: 100%;
+  height: auto;
+}
+
+.video {
+  margin-bottom: 20px;
+}
+
+/* Location section */
+#location {
+  background-color: rgb(27, 7, 3);
+  color: bisque;
+}
+
+#location h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#location ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+#location ul li {
+  margin-bottom: 5px;
+}
+
+/* Partners section */
+#partners {
+  background-color: rgb(29, 1, 1);
+  color: white;
+}
+
+#partners h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#partners ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+#partners ul li {
+  margin-bottom: 5px;
+}
+
+/* Contacts section */
+#contacts {
+  background-color: rgb(37, 2, 2);
+  color: white;
+}
+
+#contacts h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#contacts ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+#contacts ul li {
+  margin-bottom: 5px;
+}
+
+/* Socials section */
+#socials {
+  background-color: rgb(51, 20, 2);
+  color: azure;
+}
+
+#socials h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.social-link {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+  color: rgb(116, 60, 60);
+}
+
